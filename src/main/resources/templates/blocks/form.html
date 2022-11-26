@@ -1,0 +1,29 @@
+<div th:fragment="form" xmlns:th="http://www.w3.org/1999/xhtml" xmlns="http://www.w3.org/1999/html">
+  <div class="form-popup" id="myForm">
+    <form action="inoutad" class="form-container" method="post" id="formForm">
+      <button id="cancel" class="btn cancel"><b>X</b></button>
+      <h1>Оставьте вашу заявку</h1>
+
+      <label for="name"><b>Имя</b></label>
+      <input type="text" placeholder="Только русские буквы" id="name" name="name" data-reg="^[А-ЯЁ][а-яё]*$">
+
+
+      <label for="email"><b>Почта</b></label>
+      <input type="text" placeholder="example@mail.com" id="email" name="email"
+             data-reg="^(.+)@(\S+)$">
+
+      <label for="phone"><b>Телефон</b></label>
+      <input type="text" placeholder="89990000000, +79990000000, 79990000000" id="phone" name="phone"
+             data-reg="^((\+7|7|8)+([0-9]){10})$">
+
+      <label for="322"><b>Выберите вид услуги</b></label>
+      <div id="322" class="contForDesOfServ">
+        <button class="btnDesOfServ" type="button">Indoor</button>
+        <button class="btnDesOfServ" type="button">Outdoor</button>
+        <button class="btnDesOfServ" type="button">Pos-m</button>
+      </div>
+      <input type="text" id="servSelect" name="servSelect" hidden="true">
+      <button type="submit" id="submitBtn" name="subbtn" class="btn" >Отправить</button>
+    </form>
+  </div>
+</div>

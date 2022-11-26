@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns:th="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+        content="InOutAd<br>
+          Разработка и производство наружной outdoor рекламы, интерьерной indoor рекламы, pos-m рекламных материалов для
+           мест продаж и мест обслуживания клиентов.">
+  <title>InOutAd</title>
+  <link rel="stylesheet" type="text/css" href="/static/style/style.css" th:href="@{/style/style.css}">
+
+  </style>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+          integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+  </script>
+</head>
+<body>
+
+<div th:insert="blocks/header :: header"></div>
+<h1>Поля заполнены неверно, попробуйте еще раз!<br>
+  <a th:href="@{/inoutad}" >Назад</a></h1>
+
+<div th:insert="blocks/footer :: footer"></div>
+
+<script th:src="@{/style/js/jq_more_module.js}" ></script>
+<script th:src="@{/style/js/inoutscrit.js}"></script>
+</body>
+</html>

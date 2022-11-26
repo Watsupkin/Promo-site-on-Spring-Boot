@@ -1,0 +1,10 @@
+
+Name: Васян
+E-mail: example@mail.ru
+Phone: 88005553535
+Service: Outdoor
+
+Name: Иван
+E-mail: yyc20228@jeoce.com
+Phone: 86669995555
+Service: Pos-m

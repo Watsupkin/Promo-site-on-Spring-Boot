@@ -1,0 +1,22 @@
+<div th:fragment="header" xmlns:th="http://www.w3.org/1999/xhtml">
+    <header>
+        <div class="logo_box">
+            <a th:href="@{/inoutad}" ><img th:src="@{/style/img/header/Logo SVG.svg}" alt="logo"></a>
+        </div>
+        <div class="menu" name="top">
+            <a href="#in"><img class="fotka" style="height: 70px;" th:src="@{/style/img/header/indoor.svg}" alt="indoor"></a>
+            <a href="#pos"><img class="fotka" style="height: 70px;" th:src="@{/style/img/header/POS-m.svg}" alt="posm"></a>
+            <a href="#out"><img class="fotka" style="height: 70px;" th:src="@{/style/img/header/Outdoor.svg}" alt="outdoor"></a>
+        </div>
+
+        <div class="contacts">
+            <figure class="contacts">
+                <p class="contacts_font"><u>inoutad@yandex.ru</u>
+                    <br><u>+7(846)990 30 31</u>
+                    <br><u>Пн-Пт: 10:00-18:00</u>
+                </p>
+            </figure>
+        </div>
+
+    </header>
+</div>
